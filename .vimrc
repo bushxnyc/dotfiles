@@ -9,6 +9,7 @@ autocmd! bufwritepost .vimrc source %
 " When you want to paste large blocks of code into vim, press F2 before you
 " paste. At the bottom you should see ``-- INSERT (paste) --``.
 
+set cursorline
 set pastetoggle=<F2>
 set clipboard=unnamed
 
