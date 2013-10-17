@@ -140,10 +140,10 @@ nmap Q gqap
 
 
 "" Clear the search buffer when hitting return
-""function! MapCR()
-""  nnoremap <cr> :nohlsearch<cr>
-""endfunction
-""call MapCR()
+function! MapCR()
+  nnoremap <cr> :nohlsearch<cr>
+endfunction
+call MapCR()
 nnoremap <leader><leader> <c-^>
 
 " Disable stupid backup and swap files - they trigger too many events
