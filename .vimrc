@@ -59,7 +59,7 @@ nmap <leader>f :e.<CR>
 " Quicksave command
 noremap <C-Z> :update<CR>
 vnoremap <C-Z> <C-C>:update<CR>
-inoremap <C-Z> <C-O>:update<CR>
+inoremap <C-Z> <C-O>:update<CR><esc><esc>
 
 " move splits around
  nn <leader>sl <c-w><s-h>
