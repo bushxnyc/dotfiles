@@ -14,7 +14,8 @@ set pastetoggle=<F2>
 set clipboard=unnamed
 
 " Quick Buffer Navigate
-nnoremap gb :buffers<CR>:sb<Space>
+nnoremap gb :buffers<CR>:b<Space>
+nnoremap <c-b> :CtrlPBuffer<CR>
 
 " Mouse and backspace
 "" set mouse=a  " on OSX press ALT and click
